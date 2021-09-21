@@ -1,0 +1,99 @@
+{
+    "gammaAccess": {
+        "url": "",
+        "token": ""
+    },
+    "repositories": [
+        {
+            "dataDir": "./EMBOLD_DATA",
+            "repository": {
+                "uid": "eb6f791a15eb2435cf9057f9652f9e12",
+                "projectName": "c#",
+                "languages": [
+                    "C_SHARP"
+                ],
+                "sources": {
+                    "baseDir": "$GITHUB_WORKSPACE",
+                    "exclusions": [
+                        
+                    ]
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "unittest": [
+                    {
+                        "name": "mstest",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "coverage": [
+                    {
+                        "name": "coverlet",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "codeissues": [
+                    {
+                        "name": "gamma_cs",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "name": "gamma_generic",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
