@@ -35,6 +35,7 @@ namespace Architecture.Domain
         public void Inactivate()
         {
             Status = Status.Inactive;
+            
         }
 
         public void Update(string firstName, string lastName, string email)
